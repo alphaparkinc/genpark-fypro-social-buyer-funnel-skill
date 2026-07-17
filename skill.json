@@ -1,0 +1,30 @@
+{
+  "name": "genpark-fypro-social-buyer-funnel-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Fypro social platform lead conversion trigger.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "marketing",
+    "conversion",
+    "fypro"
+  ],
+  "inputs": {
+    "user_comment": {
+      "type": "string"
+    },
+    "product_sku": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "trigger_dm": {
+      "type": "boolean"
+    },
+    "checkout_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
